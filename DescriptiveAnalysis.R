@@ -17,4 +17,4 @@ WA_HousingVar %>%
   geom_histogram()
 
 ### scattorplots for all pairs
-pairs(WA_HousingVar[,c("x1","x2")],pch=19,lower.panel = NULL)
+pairs(WA_HousingVar[,c("x1","x2")],pch=5,lower.panel = NULL)
